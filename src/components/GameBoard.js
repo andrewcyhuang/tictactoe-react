@@ -4,9 +4,6 @@ import '../styles/GameBoard.css';
 
 export const GameBoard = () => {
     const [gameState] = useGameStateContext();
-
-    console.log(JSON.stringify(gameState));
-
     return (
         <div className='gameboardContainer'>
             <table>
