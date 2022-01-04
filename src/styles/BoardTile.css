@@ -1,0 +1,14 @@
+.tileData {
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+}
+
+img {
+    width: 108px;
+}
